@@ -38,4 +38,19 @@ public class ArrayUtil {
 			System.out.println(Arrays.toString(reverseSortArray[i]));
 		}
 	}
+	
+	public static void bubleSort (int[] array) {
+		boolean isSorted = false;
+		while (!isSorted) {
+			isSorted = true;
+			for (int i = 0; i < array.length - 1; i++) {
+				if (array[i] > array[i + 1]) {
+					isSorted = false;
+					int temp = array[i];
+					array[i] = array[i + 1];
+					array[i + 1] = temp;
+				}
+			}
+		}
+	}
 }

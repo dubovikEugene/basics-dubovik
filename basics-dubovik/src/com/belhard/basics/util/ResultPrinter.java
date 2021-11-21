@@ -5,11 +5,11 @@ public class ResultPrinter {
 		System.out.println("Result is: \t" + num);
 	}
 
-	public static void IntResultToConsole(double num) {
+	public static void IntResultToConsole(int num) {
 		System.out.println("Result is: \t" + num);
 	}
 
-	public static void IntResultToConsole(String str) {
-		System.out.println("Result is: \t" + str);
+	public static void StringResultToConsole(String str) {
+		System.out.println("\nResult is: \t" + str);
 	}
 }

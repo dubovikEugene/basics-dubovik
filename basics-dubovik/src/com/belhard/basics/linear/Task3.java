@@ -16,7 +16,7 @@ public class Task3 {
 		int seconds = (timeInSeconds - (hours * 3600)) - (minutes * 60);
 		String timeFormatted = String.format("%02dh %02dmin %02ds", hours, minutes, seconds);
 
-		ResultPrinter.IntResultToConsole(timeFormatted);
+		ResultPrinter.StringResultToConsole(timeFormatted);
 
 	}
 

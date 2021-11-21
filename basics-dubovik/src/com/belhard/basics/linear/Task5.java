@@ -10,10 +10,10 @@ public class Task5 {
 		double x = scanner.nextDouble();
 		System.out.println("Please, enter y");
 		double y = scanner.nextDouble();
-		
-		double result = ((Math.sin(x) + Math.cos(y)) / (Math.cos(x) - Math.sin(y))) * Math.tan(x*y);
+
+		double result = ((Math.sin(x) + Math.cos(y)) / (Math.cos(x) - Math.sin(y))) * Math.tan(x * y);
 		System.out.println(result);
-		
+
 		scanner.close();
 
 	}

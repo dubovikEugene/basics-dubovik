@@ -9,15 +9,15 @@ public class Task6 {
 		System.out.println("Enter two numbers");
 		String a = scanner.nextLine();
 		String b = scanner.nextLine();
-		
-		for(int i = 0;i<a.length(); i++) {
-			
-			for(int j =0;j<b.length();j++) {
-				if(a.charAt(i) == b.charAt(j)) {
+
+		for (int i = 0; i < a.length(); i++) {
+
+			for (int j = 0; j < b.length(); j++) {
+				if (a.charAt(i) == b.charAt(j)) {
 					System.out.println("The number that is included in both integers is " + a.charAt(i));
 				}
 			}
-			
+
 		}
 		scanner.close();
 

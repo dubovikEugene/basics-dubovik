@@ -10,14 +10,14 @@ public class Task3 {
 		double a = scanner.nextDouble();
 		System.out.println("Enter the value of the second angle of the triangle");
 		double b = scanner.nextDouble();
-		if(a+b >= 180 || a < 0 || b < 0) {
+		if (a + b >= 180 || a < 0 || b < 0) {
 			System.out.println("This is not a triangle");
-		}else if(a+b == 90 || a == 90 || b == 90) {
+		} else if (a + b == 90 || a == 90 || b == 90) {
 			System.out.println("This is a right triangle");
-		}else {			
+		} else {
 			System.out.println("This is a triangle");
 		}
-		
+
 		scanner.close();
 
 	}

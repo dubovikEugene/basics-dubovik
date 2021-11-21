@@ -14,13 +14,13 @@ public class Task1 {
 		double c = scanner.nextDouble();
 		System.out.println("Please, enter d");
 		double d = scanner.nextDouble();
-		
+
 		double firstMinNumber = a < b ? a : b;
 		double secondMinNumber = c < d ? c : d;
-		
+
 		double maxNumberOfMin = firstMinNumber > secondMinNumber ? firstMinNumber : secondMinNumber;
 		System.out.println(maxNumberOfMin);
-				
+
 		scanner.close();
 	}
 

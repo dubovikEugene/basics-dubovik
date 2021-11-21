@@ -6,9 +6,9 @@ import java.util.Locale;
 public class Task1 {
 
 	public static void main(String[] args) {
-		
+
 		System.out.println("Now let's try to solve the equation ((a-3)*b/2)+c=z");
-		
+
 		Scanner input = new Scanner(System.in);
 		input.useLocale(Locale.US);
 		System.out.println("Enter the value on - a");
@@ -17,11 +17,11 @@ public class Task1 {
 		double b = input.nextDouble();
 		System.out.println("Enter the value on - c");
 		double c = input.nextDouble();
-		
+
 		input.close();
-		double z = ((a-3)*b/2)+c;
+		double z = ((a - 3) * b / 2) + c;
 		System.out.println("Solution of an equation ((a-3)*b/2)+c= " + z);
-		
+
 	}
 
 }

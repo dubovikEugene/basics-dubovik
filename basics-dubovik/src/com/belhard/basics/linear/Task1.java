@@ -1,7 +1,9 @@
 package com.belhard.basics.linear;
 
 import java.util.Scanner;
-import java.util.Locale;
+
+import com.belhard.basics.util.ConsoleUtil;
+import com.belhard.basics.util.ResultPrinter;
 
 public class Task1 {
 
@@ -9,19 +11,14 @@ public class Task1 {
 
 		System.out.println("Now let's try to solve the equation ((a-3)*b/2)+c=z");
 
-		Scanner input = new Scanner(System.in);
-		input.useLocale(Locale.US);
-		System.out.println("Enter the value on - a");
-		double a = input.nextDouble();
-		System.out.println("Enter the value on - b");
-		double b = input.nextDouble();
-		System.out.println("Enter the value on - c");
-		double c = input.nextDouble();
+		Scanner scanner = new Scanner(System.in);
+		double a = ConsoleUtil.GetDoubleFromConsole(scanner, "Please, enter a ->\t");
+		double b = ConsoleUtil.GetDoubleFromConsole(scanner, "Please, enter b ->\t");
+		double c = ConsoleUtil.GetDoubleFromConsole(scanner, "Please, enter c ->\t");
 
-		input.close();
 		double z = ((a - 3) * b / 2) + c;
-		System.out.println("Solution of an equation ((a-3)*b/2)+c= " + z);
-
+		
+		ResultPrinter.DoubleResultToConsole(z);
 	}
 
 }

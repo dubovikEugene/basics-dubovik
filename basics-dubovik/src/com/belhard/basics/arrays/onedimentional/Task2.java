@@ -2,7 +2,7 @@ package com.belhard.basics.arrays.onedimentional;
 
 import java.util.Scanner;
 
-import com.belhard.basics.ConsoleUtil;
+import com.belhard.basics.util.ConsoleUtil;
 
 public class Task2 {
 	public static void main(String[] args) {
